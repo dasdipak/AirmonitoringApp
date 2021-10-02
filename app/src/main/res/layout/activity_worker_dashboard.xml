@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6E9E9"
+    android:orientation="vertical"
+    tools:context=".ui.WorkerDashboardActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Worker Dashboard"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Air Monitoring System"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Temprature" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="27 Celcius"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dust Density" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Low"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Manufacturing Process" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Dry"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Working Stauts" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Yes"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        android:text="• Yes - Feasible"
+        android:textAlignment="center"
+        android:textColor="#0460FA" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        android:text="• No - Be Alert"
+        android:textAlignment="center"
+        android:textColor="#F40909" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Harmful Gases in Air"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CO2" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Detail"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SO2" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Detail"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

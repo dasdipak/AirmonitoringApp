@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6E9E9"
+    android:orientation="vertical"
+    tools:context=".ui.ManagerDashboardActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manager Dashboard"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Manage Dust Collector"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Efficiency" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="95%"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dust Density" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Low"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hydrant Amount" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="2ltr"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Required Hydrant" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="500ml"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Required Hydrant" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="500ml"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time Filled At" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="9:15"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Manage Air Pollution"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Efficiency" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="95%"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dust Density" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Low"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hydrant Amount" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="2ltr"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Required Hydrant" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="500ml"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time Filled At" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="9:15"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
