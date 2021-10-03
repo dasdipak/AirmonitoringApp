@@ -35,7 +35,7 @@ class SignupTest {
 
         Espresso.onView(ViewMatchers.withId(R.id.etUsername))
             .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText("dipakdas123"));
+            .perform(ViewActions.typeText("dipak12345"));
         Thread.sleep(1500);
         Espresso.closeSoftKeyboard();
 
@@ -49,7 +49,7 @@ class SignupTest {
 
         Espresso.onView(ViewMatchers.withId(R.id.etPassword))
             .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText("dipak123"));
+            .perform(ViewActions.typeText("dipak12345"));
         Thread.sleep(1500);
         Espresso.closeSoftKeyboard();
 
