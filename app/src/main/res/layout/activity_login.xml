@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:paddingLeft="10dp"
-        android:text="Kisaan App"
+        android:text="Cement Factory App"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"

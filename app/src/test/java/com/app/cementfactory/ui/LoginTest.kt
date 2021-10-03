@@ -10,7 +10,7 @@ class LoginTest {
     @Test
     fun loginTest() = runBlocking {
         val repo = UserRepo()
-        val response = repo.letMeLogin("arjun7", "arjun7")
+        val response = repo.letMeLogin("dipak", "dipak")
         val expected = true
         val actual = response.success
         Assert.assertEquals(expected, actual)

@@ -26,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
 
             withContext(Dispatchers.Main) {
                 if (hasLoggedIn) {
-//                    startActivity(Intent(this@SplashActivity, DashboardActivity::class.java))
+                    startActivity(Intent(this@SplashActivity, WorkerDashboardActivity::class.java))
                     finish()
                 } else {
                     startActivity(Intent(this@SplashActivity, LoginActivity::class.java))

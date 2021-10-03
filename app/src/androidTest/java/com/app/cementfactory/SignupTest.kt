@@ -23,19 +23,19 @@ class SignupTest {
     fun testSignUp() {
         Espresso.onView(ViewMatchers.withId(R.id.etFullname))
             .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText("Salman Khan"));
+            .perform(ViewActions.typeText("Dipak Das"));
         Espresso.closeSoftKeyboard()
         Thread.sleep(1500);
 
         Espresso.onView(ViewMatchers.withId(R.id.etPhone))
             .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText("9777898769"));
+            .perform(ViewActions.typeText("9804781699"));
         Thread.sleep(1500);
         Espresso.closeSoftKeyboard();
 
         Espresso.onView(ViewMatchers.withId(R.id.etUsername))
             .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText("salman07"));
+            .perform(ViewActions.typeText("dipakdas123"));
         Thread.sleep(1500);
         Espresso.closeSoftKeyboard();
 
@@ -43,13 +43,13 @@ class SignupTest {
 
         Espresso.onView(ViewMatchers.withId(R.id.etEmail))
             .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText("salman07@gmail.com"));
+            .perform(ViewActions.typeText("dasdipak123@gmail.com"));
         Thread.sleep(1500);
         Espresso.closeSoftKeyboard();
 
         Espresso.onView(ViewMatchers.withId(R.id.etPassword))
             .perform(ViewActions.clearText())
-            .perform(ViewActions.typeText("salman07"));
+            .perform(ViewActions.typeText("dipak123"));
         Thread.sleep(1500);
         Espresso.closeSoftKeyboard();
 

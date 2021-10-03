@@ -108,7 +108,7 @@ class LoginActivity : AppCompatActivity() {
                         setSharedPref()
                         Toast.makeText(this@LoginActivity, "Welcome", Toast.LENGTH_SHORT).show()
                     }
-                    val intent = Intent(this@LoginActivity, DashboardActivity::class.java)
+                    val intent = Intent(this@LoginActivity, WorkerDashboardActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {

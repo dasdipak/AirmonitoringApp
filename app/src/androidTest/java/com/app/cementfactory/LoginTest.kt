@@ -25,13 +25,13 @@ class LoginTest {
     fun testLogin() {
         onView(withId(R.id.etFullname))
             .perform(clearText())
-            .perform(typeText("ayush7"));
+            .perform(typeText("dipakdas123"));
         closeSoftKeyboard()
         Thread.sleep(1500);
 
         onView(withId(R.id.etPassword))
             .perform(clearText())
-            .perform(typeText("ayush7"));
+            .perform(typeText("dipak123"));
         Thread.sleep(1500);
         closeSoftKeyboard();
 
